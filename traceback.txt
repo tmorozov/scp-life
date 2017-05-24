@@ -1,0 +1,21 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 113, in script
+    М "Давай быстрее уже!"
+Exception: Sayer 'М' is not defined.
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/script.rpy", line 113, in script
+    М "Давай быстрее уже!"
+  File "/Users/timur/Desktop/renpy-6.99.12.4-sdk/renpy/ast.py", line 593, in execute
+    who = eval_who(self.who, self.who_fast)
+  File "/Users/timur/Desktop/renpy-6.99.12.4-sdk/renpy/ast.py", line 509, in eval_who
+    raise Exception("Sayer '%s' is not defined." % who.encode("utf-8"))
+Exception: Sayer 'М' is not defined.
+
+Darwin-16.6.0-x86_64-i386-64bit
+Ren'Py 6.99.12.4.2187
+SCP Жизнь 1.0

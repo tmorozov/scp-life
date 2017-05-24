@@ -1,0 +1,1 @@
+{"layout": null, "package": "com.tim_home.scp_life_01", "include_pil": false, "numeric_version": "100", "expansion": false, "name": "SCP \u0416\u0438\u0437\u043d\u044c", "source": false, "icon_name": "SCP \u0416\u0438\u0437\u043d\u044c", "version": "1.0", "target_version": 14, "permissions": ["VIBRATE"], "include_sqlite": false, "store": "none", "orientation": "sensorLandscape"}
